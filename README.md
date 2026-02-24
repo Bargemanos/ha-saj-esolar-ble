@@ -55,7 +55,7 @@ Diagnostic sensors: BLE connection status, update interval, last power reading.
 1. Go to **Settings → Devices & Services → Add Integration**
 2. Search for **SAJ eSolar BLE**
 3. Select your inverter from discovered devices
-4. Enter the BLE password (default: `123456`)
+4. Enter the BLE password
 
 The polling interval can be changed in the integration's options (default: 30 seconds).
 
