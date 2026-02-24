@@ -6,7 +6,7 @@
 Home Assistant custom integration for **SAJ solar inverters** (R5 series) via **Bluetooth Low Energy (BLE)**. Communicates directly with the inverter's DTU (MC20 2G module) using Modbus over BLE — no cloud, no Wi-Fi required.
 
 ---
-**This integration is provided as-is. No support or maintenance is guaranteed.**
+# ** This integration is provided as-is. No support or maintenance is guaranteed.**
 ---
 
 ## Features
