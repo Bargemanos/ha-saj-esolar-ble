@@ -1,0 +1,8 @@
+rules:
+  config-flow: done
+  entity-unique-id: done
+  entity-unavailable: done
+  parallel-updates: done
+  action-setup:
+    status: exempt
+    comment: Integration does not register custom actions.

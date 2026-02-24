@@ -1,0 +1,94 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to SAJ inverter (BLE)",
+        "description": "Select a nearby SAJ inverter.",
+        "data": {
+          "ble_address": "BLE device"
+        }
+      },
+      "confirm": {
+        "title": "Authenticate",
+        "description": "Enter the BLE password for the inverter.",
+        "data": {
+          "ble_password": "BLE password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the inverter.",
+      "no_devices": "No SAJ BLE devices found. Make sure your inverter is in range.",
+      "unknown": "Unexpected error."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "SAJ eSolar BLE Options",
+        "description": "Configure the integration settings.",
+        "data": {
+          "update_interval": "Update interval (seconds)"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "run_status": {
+        "name": "Run status",
+        "state": {
+          "Running": "Running",
+          "Standby": "Standby",
+          "Fault": "Fault",
+          "Offline": "Offline"
+        }
+      },
+      "current_power": {
+        "name": "Current power"
+      },
+      "pv1_voltage": {
+        "name": "PV1 voltage"
+      },
+      "pv1_current": {
+        "name": "PV1 current"
+      },
+      "pv2_voltage": {
+        "name": "PV2 voltage"
+      },
+      "pv2_current": {
+        "name": "PV2 current"
+      },
+      "grid_voltage": {
+        "name": "Grid voltage"
+      },
+      "grid_current": {
+        "name": "Grid current"
+      },
+      "grid_frequency": {
+        "name": "Grid frequency"
+      },
+      "today_energy": {
+        "name": "Today energy"
+      },
+      "month_energy": {
+        "name": "Month energy"
+      },
+      "year_energy": {
+        "name": "Year energy"
+      },
+      "total_energy": {
+        "name": "Total energy"
+      },
+      "ble_status": {
+        "name": "BLE status"
+      },
+      "update_interval": {
+        "name": "Update interval"
+      },
+      "last_power_reading": {
+        "name": "Last power reading"
+      }
+    }
+  }
+}

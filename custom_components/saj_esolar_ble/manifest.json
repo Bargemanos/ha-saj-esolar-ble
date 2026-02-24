@@ -1,0 +1,26 @@
+{
+  "domain": "saj_esolar_ble",
+  "name": "SAJ eSolar BLE",
+  "codeowners": [
+    "@JeroenBargeman"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "bluetooth_adapters"
+  ],
+  "documentation": "https://github.com/Bargemanos/ha-saj-esolar-ble",
+  "issue_tracker": "https://github.com/Bargemanos/ha-saj-esolar-ble/issues",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": [
+    "bleak>=0.22.2",
+    "bleak-retry-connector>=4.4.0"
+  ],
+  "bluetooth": [
+    {
+      "service_uuid": "00001834-0000-1000-8000-00805f9b34fb",
+      "connectable": true
+    }
+  ],
+  "version": "0.2.0"
+}

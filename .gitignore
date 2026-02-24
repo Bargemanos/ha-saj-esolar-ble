@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+
+# Local development
+local/
+
+# Claude Code local config
+.claude/
+
+# Build artifacts
+*.apk
+*.xapk
+*.zip
