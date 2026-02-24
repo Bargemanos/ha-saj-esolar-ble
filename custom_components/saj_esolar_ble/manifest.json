@@ -2,7 +2,7 @@
   "domain": "saj_esolar_ble",
   "name": "SAJ eSolar BLE",
   "codeowners": [
-    "@JeroenBargeman"
+    "@Bargemanos"
   ],
   "config_flow": true,
   "dependencies": [
