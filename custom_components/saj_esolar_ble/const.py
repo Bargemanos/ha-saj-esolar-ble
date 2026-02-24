@@ -34,11 +34,11 @@ MIN_UPDATE_INTERVAL: Final = 10
 MAX_UPDATE_INTERVAL: Final = 300
 
 RUN_STATUS_MAP: Final[dict[int, str]] = {
-    0: "Offline",
-    1: "Standby",
-    2: "Running",
-    3: "Running",
-    4: "Running",
-    5: "Fault",
-    6: "Offline",
+    0: "offline",
+    1: "standby",
+    2: "running",
+    3: "running",
+    4: "running",
+    5: "fault",
+    6: "offline",
 }

@@ -38,10 +38,10 @@
       "run_status": {
         "name": "Run status",
         "state": {
-          "Running": "Running",
-          "Standby": "Standby",
-          "Fault": "Fault",
-          "Offline": "Offline"
+          "running": "Running",
+          "standby": "Standby",
+          "fault": "Fault",
+          "offline": "Offline"
         }
       },
       "current_power": {

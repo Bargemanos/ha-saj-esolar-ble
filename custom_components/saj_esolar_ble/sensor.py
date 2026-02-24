@@ -42,9 +42,9 @@ SENSOR_DESCRIPTIONS: tuple[SajBleSensorDescription, ...] = (
         key="run_status",
         translation_key="run_status",
         device_class=SensorDeviceClass.ENUM,
-        options=["Running", "Standby", "Fault", "Offline"],
+        options=["running", "standby", "fault", "offline"],
         value_fn=lambda data: RUN_STATUS_MAP.get(
-            data.run_status, "Offline"
+            data.run_status, "offline"
         ) if data.run_status is not None else None,
     ),
     SajBleSensorDescription(
